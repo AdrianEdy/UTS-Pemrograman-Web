@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu|Inconsolata&display=swap');
+
+* {
+    font-family: "Playfair Display";
+}
+
+.navbar {
+    font-size: 0.85rem;
+}
+
+.navbar-brand {
+    font-family: "Inconsolata";
+    letter-spacing: 0.3rem;
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.banner {
+    height: 70vh;
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0 1rem 0 1rem;
+}
+
+.banner-spot {
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/spot.png");
+    background-position: center;
+    background-size: cover;
+    background-color: gray;
+}
+
+.banner-res {
+    font-size: 2.5rem;
+}
+
+.category {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color: #6c757d;
+}
+
+.comment {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+input {
+    font-family: "Ubuntu";
+    border: none;
+    background-color: transparent;
+}
+
+.bordered {
+    font-family: "Playfair Display";
+    border-bottom: 1px solid black;
+} 
+
+.email-input {
+    width: 320px;
+}
+
+.ubuntu {
+    font-family: "Ubuntu";
+}
+
+input:focus{
+    outline: none;
+}
+
+.newsletter{
+    margin: 0 auto;
+    float: none;
+}
+
+::placeholder {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #e9ecef;
+    margin-top: 50px;
+}
+
+.user{
+    width: 72px;
+    height: 72px;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: lighter;
+}
